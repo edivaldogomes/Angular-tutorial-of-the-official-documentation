@@ -1,0 +1,24 @@
+RUN DATABASE
+----------------------------
+json-server --watch db.json
+----------------------------
+
+DEPENDENCES TO JSON SERVER
+------------------------------
+npm install -g json-server 
+------------------------------
+
+GENERATE COMPONENTS
+--------------------------------
+ng generate component details --standalone --inline-template --skip-tests
+--------------------------------
+
+GENERATE SERVICES
+-------------------------------
+ng generate service housing --skip-tests
+-------------------------------
+
+GENEARTE INTERFACES
+-------------------------------
+ng generate interface housinglocation
+-------------------------------
